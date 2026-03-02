@@ -362,20 +362,22 @@ Commands:
 
 ## About
 
+This marketplace evolves as product practice and AI capabilities evolve.
+
 Selected skills based on the work of:
 
-- [Teresa Torres — *Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/)
-- [Marty Cagan — *INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) and [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/)
-- [Alberto Savoia — *The Right It*](https://www.amazon.com/Right-Many-Ideas-Yours-Succeed/dp/0062884654)
-- [Dan Olsen — *The Lean Product Playbook*](https://www.amazon.com/dp/1118960874/)
-- [Roger L. Martin — *Playing to Win*](https://www.amazon.com/Playing-Win-Expanded-Bonus-Articles/dp/B0F25SDYWV/)
-- [Ash Maurya — *Running Lean*](https://www.amazon.com/dp/B004J4XGN6/)
-- [Strategyzer — *Business Model Generation*](https://www.amazon.com/dp/0470876417/) and [*Value Proposition Design*](https://www.amazon.com/dp/1118968050/)
-- [Christina Wodtke — *Radical Focus*](https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives/dp/0996006052)
-- [Anthony W. Ulwick — *Jobs to Be Done*](https://jobs-to-be-done-book.com/)
-- [Alistair Croll & Benjamin Yoskovitz — *Lean Analytics*](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/)
-- [Sean Ellis — *Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/)
-- [Maja Voje — *Go-To-Market Strategist*](https://gtmstrategist.com/)
+- Teresa Torres — [*Continuous Discovery Habits*](https://www.amazon.com/Continuous-Discovery-Habits-Discover-Products/dp/1736633309/)
+- Marty Cagan — [*INSPIRED*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507/) and [*TRANSFORMED*](https://www.amazon.com/dp/1119697336/)
+- Alberto Savoia — [*The Right It*](https://www.amazon.com/Right-Many-Ideas-Yours-Succeed/dp/0062884654)
+- Dan Olsen — [*The Lean Product Playbook*](https://www.amazon.com/dp/1118960874/)
+- Roger L. Martin — [*Playing to Win*](https://www.amazon.com/Playing-Win-Expanded-Bonus-Articles/dp/B0F25SDYWV/)
+- Ash Maurya — [*Running Lean*](https://www.amazon.com/dp/B004J4XGN6/)
+- Strategyzer — [*Business Model Generation*](https://www.amazon.com/dp/0470876417/) and [*Value Proposition Design*](https://www.amazon.com/dp/1118968050/)
+- Christina Wodtke — [*Radical Focus*](https://www.amazon.com/Radical-Focus-Achieving-Important-Objectives/dp/0996006052)
+- Anthony W. Ulwick — [*Jobs to Be Done*](https://jobs-to-be-done-book.com/)
+- Alistair Croll & Benjamin Yoskovitz — [*Lean Analytics*](https://www.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675/)
+- Sean Ellis — [*Hacking Growth*](https://www.amazon.com/Hacking-Growth-Fastest-Growing-Companies-Breakout/dp/045149721X/)
+- Maja Voje — [*Go-To-Market Strategist*](https://gtmstrategist.com/)
 
 Curated by [The Product Compass Newsletter](https://www.productcompass.pm) by Paweł Huryn.
 
