@@ -1,10 +1,10 @@
-# PM Skills Marketplace: An AI Operating System for Better Product Decisions
+# PM Skills Marketplace: The AI Operating System for Better Product Decisions
 
 > 65 PM skills and 36 chained workflows across 8 plugins. Claude Code, Cowork, and more. From discovery to strategy, execution, launch, and growth. 
 
 ![Plugin overview](.docs/images/plugins-overview.webp)
 
-Designed for Claude Code and Cowork. Skills compatibile with other AI assistants.
+Designed for Claude Code and Cowork. Skills compatible with other AI assistants.
 
 ## Start Here
 
