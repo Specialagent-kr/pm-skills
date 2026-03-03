@@ -24,7 +24,7 @@
 
 ### 웹에서 사용하기: claude.ai
 
-- 등록: claude.ai > 사용자지정 > 스킬 메뉴(https://claude.ai/customize/skills)에서 다운로드 받은 스킬의 SKILL.md 파일 또는 전체 스킬 zip파일을 등록합니다.
+- 등록: claude.ai > 사용자지정 > 스킬 메뉴에서 다운로드 받은 스킬의 SKILL.md 파일 또는 전체 스킬 zip파일을 등록합니다.
 - 사용: Claude 채팅에서 관련된 업무 수행시 자동으로 skill이 적용됩니다.
 
 ### AI Coding 툴에서 사용하기
