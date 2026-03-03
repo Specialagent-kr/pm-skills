@@ -35,10 +35,3 @@ description: "가치, 사용성, 생존 가능성 및 기술적 타당성 영역
 
 단계별로 생각하십시오. 철저하지만 건설적으로 분석하십시오. 목적은 아이디어를 죽이는 것이 아니라 더 견고하게 만드는 것입니다.
 
----
-
-### 더 읽어보기
-
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

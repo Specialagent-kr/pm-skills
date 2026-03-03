@@ -66,11 +66,3 @@ description: "북극성 지표(North Star Metric)와 3-5개의 입력 지표(Inp
 - 주요 고객 세그먼트 및 유스케이스를 언급해 주십시오.
 - 고객에게 제공하는 핵심 가치가 무엇인지 설명해 주십시오.
 
----
-
-### 더 읽어보기
-
-- [The North Star Framework 101](https://www.productcompass.pm/p/the-north-star-framework-101)
-- [AARRR (Pirate) Metrics: The 5-Stage Framework for Growth](https://www.productcompass.pm/p/aarrr-pirate-metrics)
-- [The Google HEART Framework: Your Guide to Measuring User-Centric Success](https://www.productcompass.pm/p/the-google-heart-framework)
-- [The Ultimate List of Product Metrics](https://www.productcompass.pm/p/the-ultimate-list-of-product-metrics)

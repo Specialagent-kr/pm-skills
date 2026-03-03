@@ -78,12 +78,3 @@ description: "인구 통계, JTBD 및 제품 적합성 분석을 포함하여 3-
 - 블루오션 기회와 경쟁사가 소홀히 하는 세그먼트를 모두 고려하십시오.
 - 추가 시장 조사가 필요한 세그먼트는 표시해 두십시오.
 
----
-
-### 더 읽어보기
-
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Crossing the Chasm: The Ultimate Guide For PMs](https://www.productcompass.pm/p/crossing-the-chasm)
-- [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (동영상 강의)

@@ -1,52 +1,44 @@
 ---
 name: identify-assumptions-new
-description: "Identify risky assumptions for a new product idea across 8 risk categories including Go-to-Market, Strategy, and Team. Uses multi-perspective analysis. Use when launching a new product, evaluating startup risks, or assessing a new product concept. Triggers: new product risks, startup assumptions, GTM risk, launch risk assessment, new product viability."
+description: "시장 진입(GTM), 전략, 팀을 포함한 8가지 리스크 카테고리에 걸쳐 새로운 제품 아이디어의 위험한 가설을 식별합니다. 다각도 분석을 사용합니다. 신제품 출시, 스타트업 리스크 평가 또는 새로운 제품 컨셉 평가 시 사용합니다. 트리거: 신제품 리스크, 스타트업 가설, GTM 리스크, 출시 리스크 평가, 신제품 타당성."
 ---
 
-## Identify Assumptions (New Product)
+## 가설 식별 (신제품/New Product)
 
-Comprehensive risk identification across 8 categories — extending the 4 core product risks (Teresa Torres, *Continuous Discovery Habits*) with Ethics, Go-to-Market, Strategy & Objectives, and Team risks that are critical for new products.
+Teresa Torres의 4가지 핵심 제품 리스크(*Continuous Discovery Habits*)를 비즈니스 윤리, 시장 진입(GTM), 전략 및 목표, 그리고 팀 리스크로 확장하여 신제품에 중요한 8가지 카테고리에 걸쳐 포괄적으로 리스크를 식별합니다.
 
-### Context
+### 컨텍스트
 
-You are evaluating assumptions for a new product: **$ARGUMENTS**.
+당신은 신제품 **$ARGUMENTS**에 대한 가설을 평가하고 있습니다.
 
-If the user provides files (business plans, research), read them first.
+사용자가 파일(사업 계획서, 리서치 등)을 제공하는 경우 먼저 읽으십시오.
 
-### Domain Context
+### 도메인 컨텍스트
 
-**The 4 core product risks** (Teresa Torres, *Continuous Discovery Habits*): Value, Usability, Viability, Feasibility.
+**4가지 핵심 제품 리스크** (Teresa Torres, *Continuous Discovery Habits*): 가치(Value), 사용성(Usability), 생존 가능성(Viability), 실현 가능성(Feasibility).
 
-**For new products, extend to 8 risk categories.** Good teams assume at least three-quarters of their ideas won't perform as they hope.
+**신제품의 경우, 8가지 리스크 카테고리로 확장합니다.** 훌륭한 팀은 자신들의 아이디어 중 최소 4분의 3은 기대만큼 작동하지 않을 것이라고 가정합니다.
 
-### Instructions
+### 지침
 
-The user will describe the product concept, target segment, and feature idea. Work through these steps:
+사용자는 제품 컨셉, 타겟 세그먼트 및 기능 아이디어를 설명할 것입니다. 다음 단계에 따라 진행하십시오:
 
-1. **Think from three perspectives** about why this product might fail:
-   - **Product Manager**: Market demand, willingness to pay, competitive landscape
-   - **Designer**: First-time user experience, onboarding, engagement
-   - **Engineer**: Build vs. buy decisions, scalability, technical debt
+1. **세 가지 관점에서** 이 제품이 실패할 수 있는 이유를 생각하십시오:
+   - **제품 관리자(PM)**: 시장 수요, 지불 의향, 경쟁 환경
+   - **디자이너**: 최초 사용자 경험, 온보딩, 인게이지먼트(Engagement)
+   - **엔지니어**: 자체 개발 vs 구매(Build vs. Buy) 결정, 확장성, 기술 부채
 
-2. **Identify assumptions across 8 risk categories**:
+2. **8가지 리스크 카테고리 전체에서 가설을 식별하십시오**:
 
-   - **Value**: Will it create value for customers? Will they keep using it?
-   - **Usability**: Will people figure out how to use it? Can we onboard them fast enough? Will it increase cognitive load?
-   - **Viability**: Can we sell/monetize/finance it? Is it worth the cost? Can we support customers and help them succeed? Can we scale? Will it be compliant?
-   - **Feasibility**: Can we do it with the current technology? Is this integration possible? Can it be efficient? Can we scale it?
-   - **Ethics**: Should we do it at all? Are there any ethical considerations? Will it pose a risk for our customers?
-   - **Go-to-Market** (especially critical for new products): Can we market it? Do we have the required channels? Can we convince customers to try it? Is this the right messaging for this channel? Is this the right time? Is this the right way to launch it?
-   - **Strategy & Objectives**: What are our assumptions? Can others copy our strategy? Have we considered political, economic, legal, technological, and environmental factors? Are those the best problems to solve?
-   - **Team**: How well will the team work together? Do we have the right people? Do we have the right tools? Will the entire team stay with us long enough?
+   - **가치(Value)**: 고객을 위한 가치를 창출할 것인가? 고객이 계속 사용할 것인가?
+   - **사용성(Usability)**: 사람들이 사용 방법을 이해할 것인가? 충분히 빨리 온보딩할 수 있는가? 인지 부하를 증가시키는가?
+   - **생존 가능성(Viability)**: 판매/수익화/자금 조달이 가능한가? 그만한 비용 가치가 있는가? 고객을 지원하고 성공을 도울 수 있는가? 확장 가능한가? 규정을 준수하는가?
+   - **실현 가능성(Feasibility)**: 현재 기술로 가능한가? 이 통합이 가능한가? 효율적일 수 있는가? 확장 가능한가?
+   - **비즈니스 윤리(Ethics)**: 이것을 해야만 하는가? 윤리적 고려 사항이 있는가? 고객에게 위험을 초래할 것인가?
+   - **시장 진입(Go-to-Market)** (신제품에 특히 중요): 마케팅할 수 있는가? 필요한 채널이 있는가? 고객이 시도하도록 설득할 수 있는가? 이 채널에 적합한 메시지인가? 지금이 적기인가? 이것이 올바른 출시 방법인가?
+   - **전략 및 목표(Strategy & Objectives)**: 우리의 가설은 무엇인가? 다른 사람들이 우리의 전략을 모방할 수 있는가? 정치적, 경제적, 법적, 기술적, 환경적 요인(PESTLE)을 고려했는가? 이것이 해결해야 할 최선의 문제인가?
+   - **팀(Team)**: 팀이 얼마나 잘 협력할 것인가? 적합한 사람들을 보유하고 있는가? 적합한 도구를 가지고 있는가? 전체 팀이 충분히 오랫동안 함께할 것인가?
 
-3. **For each assumption**, rate confidence and suggest a test.
+3. **각 가설에 대해**, 신뢰도를 평가하고 테스트 방법을 제안하십시오.
 
-Think step by step. Save as markdown.
-
----
-
-### Further Reading
-
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+단계별로 생각하십시오. 마크다운으로 저장하십시오.

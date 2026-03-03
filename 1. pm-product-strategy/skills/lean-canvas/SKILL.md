@@ -128,8 +128,3 @@ description: "문제, 해결책, 지표, 비용 구조, 고유 가치 제안(UVP
 - 각 섹션은 가능한 한 구체적이고 측정 가능해야 합니다.
 - 이 캔버스는 파운딩 팀이 비즈니스 전략에 대해 정렬하는 데 도움을 줍니다.
 
----
-
-### 더 읽어보기
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)

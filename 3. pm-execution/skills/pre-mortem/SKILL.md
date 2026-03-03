@@ -85,9 +85,3 @@ description: "PRD에 대해 사전 부검(Pre-mortem) 분석을 수행합니다.
 - 분석에 교차 기능 부서(엔지니어링, 디자인, 마케팅)의 관점을 포함하십시오.
 - 출시 2-3주 전에 사전 부검 내용을 재검토하여 완화 조치가 제대로 진행되고 있는지 확인하십시오.
 
----
-
-### 더 읽어보기
-
-- [How Meta and Instagram Use Pre-Mortems to Avoid Post-Mortems](https://www.productcompass.pm/p/how-to-run-pre-mortem-template)
-- [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)

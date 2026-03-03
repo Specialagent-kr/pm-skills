@@ -37,10 +37,3 @@ description: "초기 발견 단계에서 신제품의 기능 아이디어를 구
 
 단계별로 생각하십시오. 내용이 방대하면 마크다운 문서로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)
-- [Product Innovation Masterclass](https://www.productcompass.pm/p/product-innovation-masterclass) (동영상 강의)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

@@ -38,8 +38,3 @@ description: "채널, 메시징 및 참여 근거를 포함하여 5가지 창의
 - 예산 한도나 자원 제약 사항을 공유하십시오.
 - 타겟 청중의 선호도와 행동 양식에 대한 정보를 포함하십시오.
 
----
-
-### 더 읽어보기
-
-- [Product Management vs. Product Marketing vs. Product Growth 101](https://www.productcompass.pm/p/product-management-vs-product-marketing)

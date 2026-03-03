@@ -164,11 +164,3 @@ $ARGUMENTS를 통해 다음을 전달하십시오:
 - 모든 자원을 교두보 시장 점유에 집중하십시오 (노력을 분산하지 마십시오).
 - 시장 점유율 60% 이상을 확보한 후에만 교두보 탈출을 계획하십시오.
 
----
-
-### 더 읽어보기
-
-- [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
-- [Product-Led Growth 101, Part 1/2](https://www.productcompass.pm/p/product-led-growth-101-12)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
-- [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)

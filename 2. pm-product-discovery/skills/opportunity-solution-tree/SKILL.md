@@ -55,11 +55,3 @@ description: "제품 발견 구조화를 위해 기회-솔루션 트리(OST)를 
 
 단계별로 생각하십시오. 내용이 방대하면 마크다운으로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [The Extended Opportunity Solution Tree](https://www.productcompass.pm/p/the-extended-opportunity-solution-tree)
-- [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Product Trio: Beyond the Obvious](https://www.productcompass.pm/p/product-trio)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

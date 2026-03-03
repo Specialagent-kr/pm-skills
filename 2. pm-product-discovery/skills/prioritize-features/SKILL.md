@@ -43,10 +43,3 @@ description: "영향력, 노력, 리스크 및 전략적 정렬을 기반으로 
 
 단계별로 생각하십시오. 출력이 방대하다면 마크다운으로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [Kano Model: How to Delight Your Customers Without Becoming a Feature Factory](https://www.productcompass.pm/p/kano-model-how-to-delight-your-customers)
-- [The Product Management Frameworks Compendium + Templates](https://www.productcompass.pm/p/the-product-frameworks-compendium)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

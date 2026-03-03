@@ -60,8 +60,3 @@ description: "가용량 추정, 스토리 선택, 의존성 매핑 및 리스크
 
 단계별로 생각하십시오. 마크다운으로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [Product Owner vs Product Manager: What's the difference?](https://www.productcompass.pm/p/product-manager-vs-product-owner)

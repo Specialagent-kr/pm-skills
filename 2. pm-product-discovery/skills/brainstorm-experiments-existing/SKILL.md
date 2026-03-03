@@ -41,11 +41,3 @@ description: "기존 제품의 가설을 검증하기 위한 실험을 설계합
 
 단계별로 생각하십시오. 실험 내용을 명확한 표나 구조화된 형식으로 제시하십시오. 내용이 방대하면 마크다운으로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [Testing Product Ideas: The Ultimate Validation Experiments Library](https://www.productcompass.pm/p/the-ultimate-experiments-library)
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [What Is Product Discovery? The Ultimate Guide Step-by-Step](https://www.productcompass.pm/p/what-exactly-is-product-discovery)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

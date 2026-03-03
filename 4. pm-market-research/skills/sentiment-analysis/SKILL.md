@@ -84,9 +84,3 @@ description: "사용자 피드백 데이터를 분석하여 감성 점수, JTBD 
 - 세그먼트 전반에 걸친 공통 패턴과 보편적 페인 포인트를 찾으십시오.
 - 제품의 강점과 약점에 대해 균형 잡힌 시각을 제공하십시오.
 
----
-
-### 더 읽어보기
-
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

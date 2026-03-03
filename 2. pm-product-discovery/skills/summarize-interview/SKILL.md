@@ -1,53 +1,46 @@
 ---
 name: summarize-interview
-description: "Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals, and action items. Use when processing customer interview recordings or transcripts, synthesizing discovery interviews, or creating interview summaries. Triggers: summarize interview, customer interview notes, interview summary, discovery interview, user interview."
+description: "고객 인터뷰 전사본을 JTBD, 만족도 신호, 액션 아이템을 포함한 구조화된 템플릿으로 요약합니다. 고객 인터뷰 녹음이나 전사본을 처리할 때, 발견(discovery) 인터뷰를 합성할 때, 또는 인터뷰 요약을 생성할 때 사용합니다. 트리거: 인터뷰 요약, 고객 인터뷰 노트, 인터뷰 정리, 발견 인터뷰, 사용자 인터뷰."
 ---
 
-## Summarize Customer Interview
+## 고객 인터뷰 요약 (Summarize Customer Interview)
 
-Transform an interview transcript into a structured summary focused on Jobs to Be Done, satisfaction, and action items.
+인터뷰 전사본을 고객의 과업(Jobs to Be Done), 만족도, 액션 아이템에 초점을 맞춘 구조화된 요약으로 변환합니다.
 
-### Context
+### 컨텍스트
 
-You are summarizing a customer interview for the product discovery of **$ARGUMENTS**.
+당신은 **$ARGUMENTS**의 제품 발견(product discovery)을 위한 고객 인터뷰를 요약하고 있습니다.
 
-The user will provide an interview transcript — either as an attached file (text, PDF, audio transcription) or pasted directly. Read any attached files first.
+사용자는 텍스트, PDF, 오디오 전사본 등의 파일이나 직접 붙여넣은 인터뷰 전사본을 제공할 것입니다. 첨부된 파일이 있다면 먼저 읽으십시오.
 
-### Instructions
+### 지침
 
-1. **Read the full transcript** carefully before summarizing.
+1. 요약하기 전에 **전체 전사본을 주의 깊게 읽으십시오.**
 
-2. **Fill in the summary template** below. Use "-" if information is unavailable. Replace numeric values with qualitative descriptions if needed (e.g., "not satisfied").
+2. 아래의 **요약 템플릿**을 작성하십시오. 정보를 사용할 수 없는 경우 "-"를 사용하십시오. 필요한 경우 숫자 값을 질적 설명(예: "만족하지 않음")으로 대체하십시오.
 
-3. **Use clear, simple language** — a primary school graduate should be able to understand the summary.
+3. **명확하고 단순한 언어를 사용하십시오.** 초등학교 졸업자도 요약을 이해할 수 있어야 합니다.
 
-### Output Template
+### 출력 템플릿
 
 ```
-**Date**: [Date and time of the interview]
-**Participants**: [Full names and roles]
-**Background**: [Background information about the customer]
+**날짜**: [인터뷰 날짜 및 시간]
+**참석자**: [성함 및 역할]
+**배경**: [고객에 대한 배경 정보]
 
-**Current Solution**: [What solution they currently use]
+**현재 솔루션**: [현재 사용 중인 솔루션]
 
-**What They Like About Current Solution**:
-- [Job to be done, desired outcome, importance, and satisfaction level]
+**현재 솔루션에서 만족하는 점**:
+- [해결하려는 과업(JTBD), 원하는 결과, 중요도 및 만족도 수준]
 
-**Problems With Current Solution**:
-- [Job to be done, desired outcome, importance, and satisfaction level]
+**현재 솔루션의 문제점**:
+- [해결하려는 과업(JTBD), 원하는 결과, 중요도 및 만족도 수준]
 
-**Key Insights**:
-- [Unexpected findings or notable quotes]
+**주요 인사이트**:
+- [예상치 못한 발견 또는 주목할 만한 인용구]
 
-**Action Items**:
-- [Date, Owner, Action — e.g., "2025-01-15, Paweł Huryn, Follow up with customer about pricing"]
+**액션 아이템**:
+- [날짜, 소유자, 행동 — 예: "2025-01-15, 홍길동, 가격에 대해 고객과 후속 연락"]
 ```
 
-Save the summary as a markdown document in the user's workspace.
-
----
-
-### Further Reading
-
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (video course)
+요약을 사용자의 워크스페이스에 마크다운 문서로 저장하십시오.

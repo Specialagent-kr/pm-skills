@@ -88,10 +88,3 @@ description: "행동, JTBD 및 니즈를 바탕으로 피드백 데이터에서 
 - 가용한 경우 제품 사용량이나 고객 데이터를 통해 도출된 세그먼트를 검증하십시오.
 - 인접 행동 및 교차 세그먼트 패턴을 고려하십시오.
 
----
-
-### 더 읽어보기
-
-- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
-- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)
-- [Jobs-to-be-Done Masterclass with Tony Ulwick and Sabeen Sattar](https://www.productcompass.pm/p/jobs-to-be-done-masterclass-with) (동영상 강의)

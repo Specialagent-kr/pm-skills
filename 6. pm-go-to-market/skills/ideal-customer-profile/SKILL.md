@@ -1,164 +1,185 @@
 ---
 name: ideal-customer-profile
-description: "Identify the Ideal Customer Profile (ICP) from research data with demographics, behaviors, JTBD, and needs. Use when defining ICP or analyzing PMF survey data. Triggers: ICP, ideal customer profile, best customer, PMF survey."
+description: "인구통계, 행동, JTBD 및 니즈를 포함한 리서치 데이터로부터 이상적인 고객 프로필(ICP)을 식별합니다. ICP를 정의하거나 PMF 설문 데이터를 분석할 때 사용합니다. 트리거: ICP, 이상적인 고객 프로필, 최고의 고객, PMF 설문."
 ---
-# Ideal Customer Profile
+# 이상적인 고객 프로필 (Ideal Customer Profile - ICP)
 
-## Overview
-Identify your Ideal Customer Profile (ICP) from research and survey data. This skill synthesizes customer research to define the customer most likely to find value, retain, and expand with your product.
+## 개요
 
-## When to Use
-- Defining ICP from product-market fit survey data
-- Targeting high-value customer segments
-- Analyzing customer success and expansion patterns
-- Prioritizing sales and marketing efforts
-- Evaluating new customer opportunities for fit
-- Refining target market definition
+리서치 및 설문 데이터로부터 이상적인 고객 프로필(ICP)을 식별합니다. 이 스킬은 고객 리서치를 종합하여 제품을 통해 가치를 얻고, 유지되며, 확장할 가능성이 가장 높은 고객을 정의합니다.
 
-## ICP Framework Components
+## 사용 시기
 
-### Demographics
-Who are they from a firmographic and personal perspective?
-- Company size (employees, revenue)
-- Industry or vertical
-- Geographic location
-- Job title and department
-- Years of experience in role
-- Education and background
-- Organizational structure and reporting
+- 제품-시장 적합성(PMF) 설문 데이터로부터 ICP 정의 시
+- 고가치 고객 세그먼트를 타겟팅할 때
+- 고객 성공 및 확장 패턴 분석 시
+- 영업 및 마케팅 노력의 우선순위 지정 시
+- 적합성 확인을 위한 새로운 고객 기회 평가 시
+- 타겟 시장 정의 구체화 시
 
-### Behaviors
-How do they work and make decisions?
-- How they discover and evaluate solutions
-- Buying process and decision-making timeline
-- Technical literacy and product adoption speed
-- Collaboration style (solo decision vs committee)
-- Change management and adoption style
-- Tool switching frequency
-- Community involvement and peer influence
+## ICP 프레임워크 구성 요소
 
-### Jobs to Be Done (JTBD)
-What are they trying to accomplish?
-- Primary job/goal they're trying to achieve
-- Secondary jobs that support the primary job
-- Emotional jobs (how they want to feel)
-- Social jobs (status and perception)
-- Jobs they avoid or want to eliminate
-- Frequency and importance of each job
-- Success metrics for completing job
+### 인구통계 (Demographics)
 
-### Needs and Pain Points
-What problems does your product solve?
-- Specific pain points they experience
-- Current workarounds and limitations
-- Impact on productivity or outcomes
-- Cost or time burden of the problem
-- Emotional frustration levels
-- Barriers to solving the problem
-- Available budget to solve
-- Competing priorities
+기업 통계 및 개인적 관점에서 그들은 누구인가?
 
-## How It Works
+- 회사 규모 (직원 수, 매출)
+- 산업 또는 업종
+- 지리적 위치
+- 직책 및 부서
+- 해당 역할의 경력 연수
+- 교육 및 배경
+- 조직 구조 및 보고 체계
 
-### Step 1: Gather Customer Data
-Collect research about actual and potential customers:
-- Product-market fit survey responses
-- Customer interview transcripts
-- Trial or freemium user behavior data
-- Customer feedback and support tickets
-- Churn analysis and customer lifecycle data
-- Win/loss analysis from sales
-- Competitor customer analysis
+### 행동 (Behaviors)
 
-### Step 2: Segment by Value
-Identify customer cohorts and their value:
-- Highest LTV (lifetime value) customers
-- Fastest time-to-value customers
-- Lowest churn rate customers
-- Highest expansion/upsell customers
-- Most enthusiastic/engaged customers
-- Best reference/case study potential
-- Most aligned with product vision
+그들은 어떻게 일하고 의사결정을 내리는가?
 
-### Step 3: Profile Demographics
-Extract firmographic patterns:
-- Common company sizes (employee count, revenue)
-- Industry verticals and sub-verticals
-- Geographic concentrations
-- Typical department and reporting structure
-- Budget holders and budget available
-- Company stage (startup, growth, enterprise)
-- Company culture indicators
+- 솔루션을 발견하고 평가하는 방법
+- 구매 프로세스 및 의사결정 타임라인
+- 기술 이해도 및 제품 채택 속도
+- 협업 스타일 (단독 결정 vs 위원회 결정)
+- 변화 관리 및 채택 스타일
+- 도구 교체 빈도
+- 커뮤니티 참여 및 동료의 영향
 
-### Step 4: Identify Behaviors
-Map decision-making and adoption patterns:
-- How they discovered your product (channel)
-- Evaluation process and timeline
-- Key stakeholders in decision
-- Obstacles during sales process
-- Product adoption speed and breadth
-- Team involvement in onboarding
-- Frequency of feature usage
-- Support and service needs
+### 해결하려는 과업 (Jobs to Be Done - JTBD)
 
-### Step 5: Define JTBD
-Articulate what they're trying to accomplish:
-- Primary job/goal (functional job)
-- Emotional dimensions (how they want to feel)
-- Social dimensions (team and stakeholder impact)
-- Success metrics (how they measure success)
-- Context and constraints (when, where, with whom)
-- Competing jobs and priorities
-- Importance ranking of various jobs
+그들이 성취하려는 것은 무엇인가?
 
-### Step 6: Document Pain Points and Needs
-Synthesize specific problem areas:
-- Before state (current situation and frustrations)
-- Desired after state (ideal future state)
-- Gap size and impact quantification
-- Emotional dimensions of the problem
-- Resource constraints preventing solutions
-- Skepticism or hesitations
-- Success criteria for solution
+- 달성하고자 하는 주요 과업/목표
+- 주요 과업을 지원하는 보조 과업
+- 정서적 과업 (어떤 기분을 느끼고 싶은가)
+- 사회적 과업 (팀 내 지위 및 인식)
+- 피하고 싶거나 제거하고 싶은 과업
+- 각 과업의 빈도 및 중요도
+- 과업 완료에 대한 성공 지표
 
-## Input Format
-Use $ARGUMENTS to pass:
-- Research data (surveys, interviews, transcripts)
-- Customer success/metrics data
-- Product usage analytics
-- Sales activity and win/loss data
-- Existing customer database
-- Competitive intelligence
+### 니즈 및 페인 포인트 (Needs and Pain Points)
 
-## Output
-A comprehensive ICP definition including:
-- Firmographic profile (company size, industry, location)
-- Behavioral profile (buying patterns, adoption style)
-- Complete JTBD mapping (functional, emotional, social jobs)
-- Top 5-7 pain points and specific needs
-- Quantified impact metrics (cost of problem, value of solution)
-- Decision-making process and key stakeholders
-- Typical customer journey and timeline
-- Go-to-market implications and messaging
-- Disqualification criteria (who is NOT a good fit)
-- High-value segment within ICP (ideal-of-the-ideal)
+당신의 제품이 해결하는 문제는 무엇인가?
 
-## Framework
-Based on Jobs to Be Done theory by Clayton Christensen and customer profiling methodology. Combines behavioral data with motivational insights to define actionable customer profiles.
+- 그들이 겪고 있는 구체적인 페인 포인트
+- 현재의 임시방편(Workaround) 및 한계
+- 생산성 또는 성과에 미치는 영향
+- 문제로 인한 비용 또는 시간 부담
+- 정서적 좌절 수준
+- 문제 해결의 장벽
+- 해결을 위해 사용 가능한 예산
+- 경쟁 우선순위
 
-## Tips
-- Use quantitative and qualitative data together
-- Interview 10+ high-value customers for pattern identification
-- Look for non-obvious demographic patterns (outliers can be high-value)
-- Define both ideal ICP and acceptable secondary segments
-- Revisit ICP quarterly as you gather more customer data
-- Use ICP to evaluate all new sales opportunities
-- Share ICP across entire organization (marketing, sales, product)
-- Remember: ICP should drive focus, not exclude all others
+## 작동 방식
 
----
+### 1단계: 고객 데이터 수집
 
-### Further Reading
+실제 및 잠재 고객에 대한 리서치 데이터를 수집합니다:
 
-- [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
+- 제품-시장 적합성(PMF) 설문 응답
+- 고객 인터뷰 전사본
+- 체험판 또는 프리미엄(Freemium) 사용자 행동 데이터
+- 고객 피드백 및 지원 티켓
+- 이탈(Churn) 분석 및 고객 라이프사이클 데이터
+- 영업팀의 수주/실주(Win/Loss) 분석
+- 경쟁사 고객 분석
+
+### 2단계: 가치 기반 세그먼트 분류
+
+고객 코호트와 그 가치를 식별합니다:
+
+- 가장 높은 LTV (생애 가치) 고객
+- 가장 빠른 가치 실현 시간(Time-to-Value) 고객
+- 가장 낮은 이탈률 고객
+- 가장 높은 확장/업셀 고객
+- 가장 열정적이고 활동적인 고객
+- 최고의 추천/사례 연구 잠재력을 가진 고객
+- 제품 비전과 가장 잘 일치하는 고객
+
+### 3단계: 인구통계 프로파일링
+
+기업 통계 패턴을 추출합니다:
+
+- 공통적인 회사 규모 (직원 수, 매출)
+- 산업군 및 하위 산업군
+- 지리적 집중도
+- 일반적인 부서 및 보고 구조
+- 예산 집행권자 및 가용 예산
+- 회사 단계 (스타트업, 성장기, 엔터프라이즈)
+- 기업 문화 지표
+
+### 4단계: 행동 식별
+
+의사결정 및 채택 패턴을 매핑합니다:
+
+- 제품 발견 경로 (채널)
+- 평가 프로세스 및 타임라인
+- 의사결정의 핵심 이해관계자
+- 영업 프로세스 중 방해 요소
+- 제품 채택 속도 및 범위
+- 온보딩 시 팀 참여도
+- 기능 사용 빈도
+- 지원 및 서비스 니즈
+
+### 5단계: JTBD 정의
+
+그들이 성취하려는 것을 명확히 합니다:
+
+- 주요 과업/목표 (기능적 과업)
+- 정서적 차원 (어떤 기분을 느끼고 싶은가)
+- 사회적 차원 (팀 및 이해관계자 영향)
+- 성공 지표 (성공을 어떻게 측정하는가)
+- 컨텍스트 및 제약 사항 (언제, 어디서, 누구와)
+- 경쟁 과업 및 우선순위
+- 다양한 과업의 중요도 순위
+
+### 6단계: 페인 포인트 및 니즈 문서화
+
+구체적인 문제 영역을 종합합니다:
+
+- 이전 상태 (현재 상황 및 좌절 요인)
+- 원하는 이후 상태 (이상적인 미래 상태)
+- 격차(Gap) 규모 및 영향 정량화
+- 문제의 정서적 차원
+- 해결을 가로막는 자원 제약
+- 회의론 또는 주저함
+- 솔루션에 대한 성공 기준
+
+## 입력 형식
+
+$ARGUMENTS를 통해 다음을 전달하십시오:
+
+- 리서치 데이터 (설문, 인터뷰, 전사본)
+- 고객 성공/지표 데이터
+- 제품 사용 분석 데이터
+- 영업 활동 및 수주/실주 데이터
+- 기존 고객 데이터베이스
+- 경쟁사 정보
+
+## 출력
+
+다음을 포함하는 종합적인 ICP 정의:
+
+- 기업 통계 프로필 (회사 규모, 산업, 위치)
+- 행동 프로필 (구매 패턴, 채택 스타일)
+- 완전한 JTBD 매핑 (기능적, 정서적, 사회적 과업)
+- 상위 5-7개 페인 포인트 및 구체적 니즈
+- 정량화된 영향 지표 (문제의 비용, 솔루션의 가치)
+- 의사결정 프로세스 및 핵심 이해관계자
+- 일반적인 고객 여정 및 타임라인
+- 시장 진입(GTM) 시사점 및 메시징
+- 부적격 기준 (어떤 고객이 적합하지 않은가)
+- ICP 내 고가치 세그먼트 (이상적인 고객 중의 이상)
+
+## 프레임워크
+
+클레이튼 크리스텐슨(Clayton Christensen)의 해결 과업(Jobs to Be Done) 이론과 고객 프로파일링 방법론을 기반으로 합니다. 행동 데이터와 동기 부여 인사이트를 결합하여 실행 가능한 고객 프로필을 정의합니다.
+
+## 팁
+
+- 정량적 데이터와 정성적 데이터를 함께 사용하십시오.
+- 패턴 식별을 위해 10명 이상의 고가치 고객을 인터뷰하십시오.
+- 비전형적인 인구통계 패턴을 찾으십시오 (특이치가 고가치 고객일 수 있음).
+- 이상적인 ICP와 수용 가능한 보조 세그먼트를 모두 정의하십시오.
+- 더 많은 고객 데이터를 수집함에 따라 분기별로 ICP를 재검토하십시오.
+- 모든 새로운 영업 기회를 평가할 때 ICP를 사용하십시오.
+- 조직 전체(마케팅, 영업, 제품)와 ICP를 공유하십시오.
+- 기억하십시오: ICP는 집중을 위한 것이지, 다른 모든 고객을 배제하기 위한 것은 아닙니다.

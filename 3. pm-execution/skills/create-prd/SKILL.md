@@ -78,9 +78,3 @@ description: "요약, 배경, 목표, 시장 세그먼트, 가치 제안, 솔루
 - 팀이 검증할 수 있도록 가설을 명확하게 표시하십시오.
 - 문서를 간결하면서도 완전하게 유지하십시오.
 
----
-
-### 더 읽어보기
-
-- [How to Write a Product Requirements Document? The Best PRD Template.](https://www.productcompass.pm/p/prd-template)
-- [A Proven AI PRD Template by Miqdad Jaffer (Product Lead @ OpenAI)](https://www.productcompass.pm/p/ai-prd-template)

@@ -50,10 +50,3 @@ description: "팀에게 동기를 부여하는 영감 있고 달성 가능하며
 - 고객, 직원 및 투자자의 관점을 고려하십시오.
 - 전문 용어(Jargon)를 피하고 명확하고 정서적으로 공감되는 언어를 사용하십시오.
 
----
-
-### 더 읽어보기
-
-- [Product Vision vs Strategy vs Objectives vs Roadmap: The Advanced Edition](https://www.productcompass.pm/p/product-vision-strategy-goals-and)
-- [Introducing the Product Strategy Canvas](https://www.productcompass.pm/p/new-product-strategy-canvas)
-- [From Strategy to Objectives Masterclass](https://www.productcompass.pm/p/product-vision-strategy-objectives-course) (동영상 강의)

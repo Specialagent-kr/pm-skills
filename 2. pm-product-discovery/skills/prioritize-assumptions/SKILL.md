@@ -40,9 +40,3 @@ description: "영향력(Impact) × 리스크(Risk) 매트릭스를 사용하여 
 
 단계별로 생각하십시오. 출력이 방대하다면 마크다운으로 저장하십시오.
 
----
-
-### 더 읽어보기
-
-- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
-- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

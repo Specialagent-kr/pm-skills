@@ -147,11 +147,3 @@ description: "신제품을 위해 제품 전략(9개 섹션)과 비즈니스 모
 
 - [Startup Canvas (PPTX)](https://docs.google.com/presentation/d/1lA0SPflj5JT6jFV_jIDsqZJAYYperTFx/edit?usp=sharing&ouid=111307342557889008106&rtpof=true&sd=true)
 
----
-
-### 더 읽어보기
-
-- [Startup Canvas: Product Strategy and a Business Model for a New Product](https://www.productcompass.pm/p/startup-canvas)
-- [Product Strategy Canvas](https://www.productcompass.pm/p/product-strategy-canvas)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
-- [Business Model Canvas Examples: Google Maps, Airbnb, Uber](https://www.productcompass.pm/p/business-model-canvas-examples)

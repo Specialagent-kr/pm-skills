@@ -114,10 +114,3 @@ cohort_engagement.csv 업로드
 - **분석 스크립트** (요청 시): 재현 가능한 분석을 위한 파이썬 코드
 - **이후 단계**: 발견된 사항에 기반한 우선순위 지정된 실행 과제
 
----
-
-### 더 읽어보기
-
-- [Cohort Analysis 101: How to Reduce Churn and Make Better Product Decisions](https://www.productcompass.pm/p/cohort-analysis)
-- [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)
-- [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics)

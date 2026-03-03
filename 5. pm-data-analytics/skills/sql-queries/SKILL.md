@@ -85,9 +85,3 @@ database_schema.sql 파일을 업로드하고 다음과 같이 요청:
 - **성능 노트**: 최적화 팁 및 고려 사항
 - **테스트 스크립트** (요청 시): 샘플 데이터 및 검증 쿼리
 
----
-
-### 더 읽어보기
-
-- [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)
-- [How to Become a Technology-Literate PM](https://www.productcompass.pm/p/how-to-become-a-technology-literate)

@@ -102,12 +102,3 @@ $ARGUMENTS를 통해 다음을 전달하십시오:
 - 영향력을 측정하기 위해 출시 전에 기준(Baseline) 지표를 설정하십시오.
 - 피드백 루프와 최적화 계획을 미리 세우십시오.
 
----
-
-### 더 읽어보기
-
-- [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
-- [OpenAI’s Product Leader Shares 3-Layer Distribution Framework To Win Mind & Market Share in the AI World](https://www.productcompass.pm/p/distribution-framework-ai-products)
-- [Product-Led Growth 101, Part 1/2](https://www.productcompass.pm/p/product-led-growth-101-12)
-- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
-- [How to Achieve Product-Market Fit? Part I: Market and Value Proposition](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
