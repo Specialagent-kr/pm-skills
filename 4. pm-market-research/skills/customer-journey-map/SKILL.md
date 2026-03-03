@@ -1,0 +1,65 @@
+---
+name: customer-journey-map
+description: "단계, 접점, 감정, 페인 포인트 및 기회를 포함하여 엔드투엔드 고객 여정 지도를 작성합니다. 고객 경험 매핑, 마찰 지점 식별, 온보딩 개선 또는 사용자 여정 시각화 시 사용하세요. 트리거: 고객 여정, 여정 지도, 사용자 여정, 접점 지도, 경험 지도, 온보딩 플로우, 고객 경험."
+---
+
+## 고객 여정 지도 (Customer Journey Map)
+
+인지부터 옹호 단계까지 엔드투엔드 고객 경험을 매핑하고, 각 단계에서의 감정, 페인 포인트 및 개선 기회를 식별합니다.
+
+### 맥락
+
+당신은 **$ARGUMENTS**를 위한 고객 여정 지도를 작성하고 있습니다.
+
+사용자가 파일(인터뷰 녹취록, 설문 데이터, 분석 자료, 지원 티켓 또는 기존 여정 지도 등)을 제공하면 이를 먼저 읽으십시오. URL이 제공된 경우 웹 검색을 통해 제품을 파악하십시오.
+
+### 지침
+
+1. **페르소나 정의**: 이 여정을 떠나는 주인공은 누구입니까? 일반적인 사용자가 아닌, 구체적인 JTBD(Jobs-to-be-Done)를 가진 특정 페르소나를 설정하십시오.
+
+2. **여정 단계 매핑** (제품에 맞게 조정):
+
+   | 단계 | 설명 |
+   |---|---|
+   | **인지 (Awareness)** | 제품에 대해 처음 어떻게 알게 되는가? |
+   | **고려 (Consideration)** | 무엇을 평가하는가? 어떤 대안들과 비교하는가? |
+   | **획득 (Acquisition)** | 가입이나 구매는 어떻게 이루어지는가? |
+   | **온보딩 (Onboarding)** | 제품과의 첫 경험 — 가치 도달 시간(TTV) |
+   | **참여 (Engagement)** | 정기적인 사용 — 습관 형성 과정 |
+   | **유지 (Retention)** | 무엇이 계속 돌아오게 만드는가? 무엇이 이탈을 일으키는가? |
+   | **옹호 (Advocacy)** | 언제, 왜 제품을 타인에게 추천하는가? |
+
+3. **각 단계별 문서화**:
+
+   - **접점 (Touchpoints)**: 사용자가 제품, 브랜드 또는 팀과 상호작용하는 지점 (웹사이트, 이메일, 인앱, 지원팀, 소셜 미디어 등)
+   - **사용자 행동 (User Actions)**: 이 단계에서 사용자가 하는 일
+   - **생각 및 질문 (Thoughts & Questions)**: 사용자의 마음속에 있는 것 ("이게 내 시간을 쓸 가치가 있을까?" "어떻게 해야 하지?" 등)
+   - **감정 (Emotions)**: 사용자가 느끼는 기분 (기대감, 혼란, 좌절, 즐거움 등) — 척도로 점수를 매기거나 이모지로 표시
+   - **페인 포인트 (Pain Points)**: 마찰, 혼란, 중도 탈락 리스크
+   - **기회 (Opportunities)**: 이 지점에서 경험을 어떻게 개선할 수 있는가
+
+4. **핵심 순간 식별**:
+   - **아하 모먼트 (Aha Moment)**: 사용자가 핵심 가치를 처음 경험하는 순간
+   - **진실의 순간 (Moments of Truth)**: 사용자가 남을지 떠날지 결정하는 지점
+   - **이탈 트리거 (Churn Triggers)**: 사용자가 가장 흔히 이탈하는 지점
+
+5. **여정 지도 표 작성**:
+
+   | 단계 | 접점 | 사용자 행동 | 감정 | 페인 포인트 | 기회 |
+   |---|---|---|---|---|---|
+
+6. **우선순위 개선 사항 제안**:
+   - 어떤 페인 포인트가 전환율이나 유지율에 가장 큰 영향을 미치는가?
+   - 즉시 경험을 개선할 수 있는 '퀵 윈(Quick Win)'은 무엇인가?
+   - 더 깊은 투자가 필요하지만 성과가 가장 큰 영역은 어디인가?
+
+단계별로 생각하십시오. 마크다운 문서로 저장하십시오. 시각적인 여정 지도가 필요한 경우, 이 분석 내용을 바탕으로 Miro나 FigJam에서 작성할 것을 사용자에게 권장하십시오.
+
+---
+
+### 더 읽어보기
+
+- [User Journey Mapping 101](https://www.productcompass.pm/p/user-journey-mapping-101)
+- [Funnel Analysis 101: How to Track and Optimize Your User Journey](https://www.productcompass.pm/p/funnel-analysis)
+- [Market Research: Advanced Techniques](https://www.productcompass.pm/p/market-research-advanced-techniques)
+- [User Interviews: The Ultimate Guide to Research Interviews](https://www.productcompass.pm/p/interviewing-customers-the-ultimate)

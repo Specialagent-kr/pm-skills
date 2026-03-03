@@ -1,0 +1,44 @@
+---
+name: identify-assumptions-existing
+description: "가치, 사용성, 생존 가능성 및 기술적 타당성 영역에서 기존 제품의 기능 아이디어에 대한 위험한 가설을 식별합니다. 다각도의 '데블스 에드버킷(Devil's Advocate)' 사고를 활용합니다. 기능 아이디어 스트레스 테스트, 리스크 평가 또는 가설 매핑 준비 시 사용하세요. 트리거: 가설 식별, 리스크 평가, 데블스 에드버킷, 가설 매핑, 기능 리스크."
+---
+
+# 가설 식별 (기존 제품)
+
+네 가지 리스크 영역에 걸쳐 위험한 가설을 표면화하기 위한 '데블스 에드버킷(Devil's Advocate)' 분석입니다.
+
+### 맥락
+
+당신은 **$ARGUMENTS**에 대한 기능 아이디어를 스트레스 테스트하고 있습니다.
+
+사용자가 파일(디자인, PRD, 연구 등)을 제공하면 먼저 읽으십시오.
+
+### 지침
+
+사용자가 제품, 목표, 시장 세그먼트 및 기능 아이디어를 설명할 것입니다. 다음 단계에 따라 작업을 진행하십시오:
+
+1. **세 가지 관점에서** 이 기능이 왜 실패할 수 있는지 생각하십시오:
+   - **제품 관리자(PM) 관점**: 비즈니스 생존 가능성, 시장 적합성, 전략적 정렬
+   - **디자이너 관점**: 사용성, 사용자 경험, 채택 장벽
+   - **엔지니어 관점**: 기술적 타당성, 성능, 통합 관련 어려움
+
+2. **네 가지 리스크 영역에서 가설 식별**:
+   - **가치 (Value)**: 고객에게 가치를 창출할 것인가? 실제 문제를 해결하는가?
+   - **사용성 (Usability)**: 사용자가 사용 방법을 이해할 수 있는가? 학습 곡선이 수용 가능한가?
+   - **생존 가능성 (Viability)**: 마케팅, 영업, 재무 및 법무 팀이 지원할 수 있는가?
+   - **기술적 타당성 (Feasibility)**: 기존 기술로 구축 가능한가? 통합 관련 리스크가 있는가?
+
+3. **각 가설에 대해 다음을 기록**:
+   - 구체적으로 무엇이 잘못될 수 있는가
+   - 우리의 확신 정도 (상/중/하)
+   - 권장되는 테스트 방법
+
+단계별로 생각하십시오. 철저하지만 건설적으로 분석하십시오. 목적은 아이디어를 죽이는 것이 아니라 더 견고하게 만드는 것입니다.
+
+---
+
+### 더 읽어보기
+
+- [Assumption Prioritization Canvas: How to Identify And Test The Right Assumptions](https://www.productcompass.pm/p/assumption-prioritization-canvas)
+- [How to Manage Risks as a Product Manager](https://www.productcompass.pm/p/how-to-manage-risks-as-a-product-manager)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)

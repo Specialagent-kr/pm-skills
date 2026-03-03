@@ -1,0 +1,94 @@
+---
+name: metrics-dashboard
+description: "주요 지표, 데이터 소스, 시각화 유형 및 알림 임계값(threshold)이 포함된 제품 지표 대시보드를 정의하고 설계합니다. 지표 대시보드 생성, KPI 정의, 제품 분석 설정 또는 데이터 모니터링 계획 수립 시 사용하세요. 트리거: 지표 대시보드, 제품 대시보드, KPI 대시보드, 분석 설정, 추적 항목, 제품 지표, 모니터링."
+---
+
+# 제품 지표 대시보드
+
+적절한 지표, 시각화 및 알림 임계값을 갖춘 종합적인 제품 지표 대시보드를 설계합니다.
+
+### 맥락
+
+당신은 **$ARGUMENTS**를 위한 지표 대시보드를 설계하고 있습니다.
+
+사용자가 파일(기존 대시보드, 분석 데이터, OKR 또는 전략 문서 등)을 제공하면 먼저 읽으십시오.
+
+### 도메인 지식
+
+**지표(Metrics) vs KPI vs NSM**: 지표 = 측정 가능한 모든 것. KPI = 긴 기간 동안 추적되는 소수의 핵심 정량적 지표. 북극성 지표(North Star Metric) = 비즈니스 성공의 선행 지표가 되는 단일한 고객 중심 KPI.
+
+**좋은 지표의 4가지 기준** (Ben Yoskovitz, *Lean Analytics*): (1) 이해하기 쉬움 — 공통의 언어를 만듦. (2) 비교 가능함 — 단편적인 수치가 아닌 시간 흐름에 따른 변화. (3) 비율 또는 비율 — 단순한 정수보다 더 많은 것을 드러냄. (4) 행동을 변화시킴 — 황금률: "지표가 당신의 행동을 바꾸지 못한다면, 그것은 나쁜 지표입니다."
+
+**8가지 지표 유형**: 허영(Vanity) vs 실행 가능(Actionable, 행동을 바꾸는 핵심 지표), 정성적 vs 정량적 (무엇(WHAT) vs 왜(WHY) — 둘 다 필요하며 고객과의 대화를 멈추지 마십시오), 탐색적 vs 보고용 (예상치 못한 통찰을 찾기 위한 데이터 탐색), 지연(Lagging) vs 선행(Leading, 고객 불만이 이탈을 예측하는 것처럼 빠른 학습을 가능하게 함).
+
+**5단계 실천 사항**: (1) 4가지 좋은 지표 기준에 따라 지표 감사. (2) 대시보드 업데이트 — 모든 핵심 지표가 좋은 지표인지 확인. (3) 허용 지표 식별 — 사용 시 주의. (4) 선행 및 지연 지표 분류. (5) 하나의 문제에 대해 데이터를 깊이 있게 분석.
+
+참고 자료: [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics) (Ben Yoskovitz)
+
+### 지침
+
+1. **지표 프레임워크 식별** — 지표를 계층별로 정리:
+
+   **북극성 지표(North Star Metric)**: 핵심 가치 전달을 가장 잘 포착하는 단일 지표
+
+   **입력 지표(Input Metrics)** (3-5개): 북극성 지표를 움직이는 레버(동인)
+
+   **건강 지표(Health Metrics)**: 제품의 전반적인 건강 상태를 보장하는 가드레일
+
+   **비즈니스 지표(Business Metrics)**: 수익, 비용 및 단위당 경제성(Unit economics)
+
+2. **각 지표의 정의**:
+
+   | 지표 | 정의 | 데이터 소스 | 시각화 | 목표값 | 알림 임계값 |
+   |---|---|---|---|---|---|
+   | [이름] | [정확한 계산 방식: 분자/분모, 기간 등] | [데이터 출처] | [라인 차트 / 바 / 숫자 / 퍼널] | [목표 수치] | [알림을 보낼 기준] |
+
+3. **대시보드 레이아웃 설계**:
+
+   ```
+   ┌─────────────────────────────────────────────┐
+   │  NORTH STAR: [지표명] — [현재 수치]          │
+   │  추세: [전기 대비 ↑/↓ X%]                   │
+   ├──────────────────┬──────────────────────────┤
+   │  입력 지표 1      │  입력 지표 2             │
+   │  [스파크라인]     │  [스파크라인]             │
+   ├──────────────────┼──────────────────────────┤
+   │  입력 지표 3      │  입력 지표 4             │
+   │  [스파크라인]     │  [스파크라인]             │
+   ├──────────────────┴──────────────────────────┤
+   │  HEALTH: [지연 시간] [에러율] [NPS]          │
+   ├─────────────────────────────────────────────┤
+   │  BUSINESS: [MRR] [CAC] [LTV] [이탈률]        │
+   └─────────────────────────────────────────────┘
+   ```
+
+4. **검토 주기 설정**:
+   - **일간**: 운영 건강 상태 (에러, 지연 시간, 핵심 흐름)
+   - **주간**: 입력 지표 및 참여도 추세
+   - **월간**: 북극성 지표, 비즈니스 지표, OKR 진행 상황
+   - **분기별**: 전략적 검토 및 지표 재조정
+
+5. **알림 정의**:
+   - 어떤 임계값이 조사를 촉발하는가?
+   - 누구에게 어떤 채널로 알림이 가는가?
+   - 예상되는 대응 시간은 어느 정도인가?
+
+6. **도구 추천** (상황에 따라):
+   - Amplitude, Mixpanel, PostHog (제품 분석)
+   - Looker, Metabase, Mode (SQL 기반 대시보드)
+   - Datadog, Grafana (운영 건강 상태)
+
+단계별로 생각하십시오. 대시보드 상세 사양을 마크다운 문서로 저장하십시오.
+
+---
+
+### 더 읽어보기
+
+- [The Ultimate List of Product Metrics](https://www.productcompass.pm/p/the-ultimate-list-of-product-metrics)
+- [The North Star Framework 101](https://www.productcompass.pm/p/the-north-star-framework-101)
+- [The Product Analytics Playbook: AARRR, HEART, Cohorts & Funnels for PMs](https://www.productcompass.pm/p/the-product-analytics-playbook-aarrr)
+- [AARRR (Pirate) Metrics: The 5-Stage Framework for Growth](https://www.productcompass.pm/p/aarrr-pirate-metrics)
+- [The Google HEART Framework: Your Guide to Measuring User-Centric Success](https://www.productcompass.pm/p/the-google-heart-framework)
+- [Funnel Analysis 101: How to Track and Optimize Your User Journey](https://www.productcompass.pm/p/funnel-analysis)
+- [Are You Tracking the Right Metrics?](https://www.productcompass.pm/p/are-you-tracking-the-right-metrics)
+- [Continuous Product Discovery Masterclass (CPDM)](https://www.productcompass.pm/p/cpdm) (동영상 강의)
